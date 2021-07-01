@@ -33,7 +33,7 @@ def get_large_audio_transcription_hin(path='extracted.wav',r=sr.Recognizer()):
                 text=f"{text.capitalize()}. "
                 print(chunk_filename,":",text)
                 whole_text+=text
-    wait1.config(text='Extracted Completed')
+    wait1.config(text='Extracting Completed')
 
     return whole_text
 
@@ -62,7 +62,7 @@ def get_large_audio_transcription_eng(path='extracted.wav',r=sr.Recognizer()):
                 text=f"{text.capitalize()}. "
                 print(chunk_filename,":",text)
                 whole_text+=text
-    wait2.config(text='Extracted Completed')
+    wait2.config(text='Extracting Completed')
 
     return whole_text
 
