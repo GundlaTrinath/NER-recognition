@@ -85,7 +85,7 @@ root.geometry('1580x1000')
 # ---------extracting audio from video---------
 def video1():
     global wait1
-    wait1 = Label(root, text='Please wait a moment', bg='white', fg='#001a33', font=('Arial', 10,'bold'))
+    wait1 = Label(root, text='Please wait a moment', bg='white', fg='#001a33', font=('Arial', 15,'bold'))
     wait1.pack()
     video=askopenfilename()
     video=VideoFileClip(video)
@@ -96,7 +96,7 @@ def video1():
 # ---------extracting audio from video---------
 def video2():
     global wait2
-    wait2 = Label(text='Please wait a moment', bg='white', fg='#001a33', font=('Arial', 10,'bold'))
+    wait2 = Label(text='Please wait a moment', bg='white', fg='#001a33', font=('Arial', 15,'bold'))
     wait2.pack()
     video=askopenfilename()
     video=VideoFileClip(video)
