@@ -1,6 +1,6 @@
 # NER-recognition
 ## To Run GUI Locally 
-### 1) Clone the repository by running the following command in Prompt or Anaconda prompt :-
+### 1) Clone the repository by running the following command in Command Prompt or Anaconda prompt :-
   ```bash
   git clone https://github.com/GundlaTrinath/NER-recognition
   ```
@@ -27,7 +27,7 @@
 ##### 6) Text will be saved as "Output(English).txt" in the "GUI" Folder locally.
 ##### 7) Click on "Download MetaData" button
 ##### 8) Metadata will be saved as "Entities.csv"
-##### For Hindi
+#### For Hindi
 ##### 1) Click on "Upload(Hindi)" button.
 ##### 2) Wait until it shows "Extract completed".
 ##### 3) Click on "Download Audio file(Hindi)" and wait for sometime.
